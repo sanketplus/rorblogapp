@@ -1,0 +1,37 @@
+<html>
+<head><title>The Rails Blog App</title>
+<style>
+
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+  
+   width:100%;
+}
+
+/* IE 6 */
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+</style>
+</head>
+<body style="background-color:#dddddd;">
+<font size="+3">
+<center><h1>Welcome To The Ordinary Blog App</h1>
+</font>
+<font size="+3">
+<p>To Get Started click <a href="/posts">Here</a></p>
+</font>
+
+
+ <div id="footer" /*style="float: right;padding-top: 200px;"*/>
+	<p><b>Submitted By<br/><br>Sanket Patel<br>12BIT028</p>
+
+	
+</div>
+</center>
+</body>
+
+</html>
